@@ -5,137 +5,92 @@ import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: true,
-    });
+    AOS.init({ duration: 800, once: true });
   }, []);
 
   return (
     <div className="app">
+      {/* Navbar */}
       <header className="navbar">
         <div className="container">
           <h1 className="logo">Josh Thyng</h1>
           <nav>
             <ul className="nav-links">
-              <li>
-                <a href="#skills">Skills</a>
-              </li>
-              <li>
-                <a href="#projects">Projects</a>
-              </li>
-              <li>
-                <a href="#resume">Resume</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
       </header>
 
+      {/* Hero */}
       <section className="hero" data-aos="fade-up">
         <div className="container">
           <img src="/pfp.jpg" alt="Josh Thyng" className="profile-pic" />
-          <h2>Computer Science Student & Aspiring Data Scientist</h2>
-          <p>
-            Welcome to my portfolio website! Explore my projects, skills, and
-            experience.
-          </p>
+          <h2>Computer Science Student</h2>
+          <p>Welcome to my portfolio website! Explore my projects, skills, and experience.</p>
           <div className="hero-buttons">
-            <a
-              href="https://github.com/joshthyng777"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.kaggle.com/joshthyng"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Kaggle
-            </a>
-            <a
-              href="https://www.linkedin.com/in/josh-thyng-a29610263/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
+            <a href="https://github.com/joshthyng777" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.kaggle.com/joshthyng" target="_blank" rel="noreferrer">Kaggle</a>
+            <a href="https://www.linkedin.com/in/josh-thyng-a29610263/" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </div>
       </section>
 
-      <div className="container">
+      {/* Sections container */}
+      <main className="container">
         <section id="skills" className="section" data-aos="fade-up">
           <h2>Skills</h2>
-          <p>
-            Python, SQL, Java, Data Analysis, Deep Learning, Computer Vision,
-            Bash, Technical Writing, Excel, Tableau
-          </p>
+          <p>Python, SQL, Java, Data Analysis, Deep Learning, Computer Vision, Bash, Technical Writing, Excel, Tableau</p>
         </section>
+        <section className="section" id="tech-stack">
+          
+  <h2>Tech Stack</h2>
+  <div className="tech-icons">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="Azure SQL" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" alt="Java" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-plain.svg" alt="NumPy"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" alt="Jupyter" />
+      
+  </div>
+</section>
 
-        <section id="projects" className="section" data-aos="fade-up">
+
+        <section id="projects" className="section">
+          {/* AOS trigger div required here to avoid rendering bug */}
+<div data-aos="fade-up"></div>
+
+          <div data-aos="fade-up"></div>
           <h2>Projects</h2>
           <p>Here are some of my GitHub projects. More coming soon!</p>
-
           <div className="project-grid">
+            {/* Project Cards */}
             <div className="project-card">
               <h3>Heart Failure Data Analysis</h3>
-              <p>
-                A project analyzing heart failure clinical records to understand
-                which features contribute most to mortality using data science
-                techniques.
-              </p>
-              <a
-                href="https://github.com/joshthyng777/heart_failure_data"
-                target="_blank"
-                rel="noreferrer"
-                className="project-link"
-              >
-                View on GitHub
-              </a>
+              <p>A project analyzing heart failure clinical records...</p>
+              <a href="https://github.com/joshthyng777/heart_failure_data" target="_blank" rel="noreferrer" className="project-link">View on GitHub</a>
             </div>
-
             <div className="project-card">
               <h3>Sports Classification</h3>
-              <p>
-                A machine learning project classifying sports data using
-                different algorithms to evaluate model performance and accuracy.
-              </p>
-              <a
-                href="https://github.com/joshthyng777/sports-classification"
-                target="_blank"
-                rel="noreferrer"
-                className="project-link"
-              >
-                View on GitHub
-              </a>
+              <p>A machine learning project classifying sports data...</p>
+              <a href="https://github.com/joshthyng777/sports-classification" target="_blank" rel="noreferrer" className="project-link">View on GitHub</a>
             </div>
-
             <div className="project-card">
               <h3>Linear Regression on McDonald's Data</h3>
-              <p>
-                Explores the relationship between calorie content and
-                nutritional values in McDonald's menu items using linear
-                regression.
-              </p>
-              <a
-                href="https://github.com/joshthyng777/linear-regression-McDonalds"
-                target="_blank"
-                rel="noreferrer"
-                className="project-link"
-              >
-                View on GitHub
-              </a>
+              <p>Explores the relationship between calorie content and nutritional values...</p>
+              <a href="https://github.com/joshthyng777/linear-regression-McDonalds" target="_blank" rel="noreferrer" className="project-link">View on GitHub</a>
             </div>
           </div>
         </section>
 
-        <section id="resume" className="section" data-aos="fade-up">
+        <section id="resume" className="section">
+          {/* AOS trigger div required here to avoid rendering bug */}
+          <div data-aos="fade-up"></div>
           <h2>Resume</h2>
           <div className="pdf-viewer">
             <iframe
@@ -148,21 +103,21 @@ function App() {
           </div>
         </section>
 
-        <section id="contact" className="section" data-aos="fade-up">
+        <section id="contact" className="section">
+          {/* AOS trigger div required here to avoid rendering bug */}
+          <div data-aos="fade-up"></div>
           <h2>Contact Me</h2>
-          <p>
-            Email:{" "}
-            <a href="mailto:joshthyng187@gmail.com">joshthyng187@gmail.com</a>
-          </p>
-          <p>Phone: (207) 590-4543</p>
+          <p>Email: <a href="mailto:joshthyng187@gmail.com">joshthyng187@gmail.com</a></p>
         </section>
+      </main>
 
-        <footer>
-          <p>© {new Date().getFullYear()} Josh Thyng. All rights reserved.</p>
-        </footer>
-      </div>
+      {/* Footer outside container */}
+      <footer>
+        <p>© {new Date().getFullYear()} Josh Thyng. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
 
 export default App;
+
