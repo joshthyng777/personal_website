@@ -1,5 +1,6 @@
 /* Reset & Base Styles */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -18,6 +19,7 @@ a {
   color: #58a6ff;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -178,7 +180,8 @@ footer {
 
 /* Container */
 .container {
-  max-width: 1400px; /* Increase a bit for ultra-wide screens */
+  max-width: 1400px;
+  /* Increase a bit for ultra-wide screens */
   margin: 0 auto;
   padding: 0 2rem;
   width: 100%;
@@ -190,6 +193,7 @@ footer {
     flex-direction: column;
     gap: 0.5rem;
   }
+
   .hero h2 {
     font-size: 2rem;
   }

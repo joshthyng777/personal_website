@@ -46,24 +46,24 @@ function App() {
           <p>Python, SQL, Java, Data Analysis, Deep Learning, Computer Vision, Bash, Technical Writing, Excel, Tableau</p>
         </section>
         <section className="section" id="tech-stack">
-          
-  <h2>Tech Stack</h2>
-  <div className="tech-icons">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="Azure SQL" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" alt="Java" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-plain.svg" alt="NumPy"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" alt="Jupyter" />
-      
-  </div>
-</section>
+
+          <h2>Tech Stack</h2>
+          <div className="tech-icons">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="Azure SQL" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" alt="Java" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-plain.svg" alt="NumPy" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" alt="Jupyter" />
+
+          </div>
+        </section>
 
 
         <section id="projects" className="section">
           {/* AOS trigger div required here to avoid rendering bug */}
-<div data-aos="fade-up"></div>
+          <div data-aos="fade-up"></div>
 
           <div data-aos="fade-up"></div>
           <h2>Projects</h2>
@@ -104,16 +104,16 @@ function App() {
         </section>
 
         <section id="about" className="section">
-  <h2>About Me</h2>
-  <div className="about-container">
-    <img src="/pfp.jpg" alt="Josh Thyng" className="about-pic" />
-    <p>
-      I’m Josh Thyng — a passionate Computer Science student with a deep interest in data science, machine learning, and building real-world solutions that make an impact. <br/>
-      <br />
-      Whether it's analyzing complex datasets or creating intuitive interfaces, I’m always eager to learn and grow.
-    </p>
-  </div>
-</section>
+          <h2>About Me</h2>
+          <div className="about-container">
+            <img src="/pfp.jpg" alt="Josh Thyng" className="about-pic" />
+            <p>
+              I’m Josh Thyng — a passionate Computer Science student with a deep interest in data science, machine learning, and building real-world solutions that make an impact. <br />
+              <br />
+              Whether it's analyzing complex datasets or creating intuitive interfaces, I’m always eager to learn and grow.
+            </p>
+          </div>
+        </section>
 
 
         <section id="contact" className="section">
