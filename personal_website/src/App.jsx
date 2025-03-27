@@ -103,6 +103,19 @@ function App() {
           </div>
         </section>
 
+        <section id="about" className="section">
+  <h2>About Me</h2>
+  <div className="about-container">
+    <img src="/pfp.jpg" alt="Josh Thyng" className="about-pic" />
+    <p>
+      I’m Josh Thyng — a passionate Computer Science student with a deep interest in data science, machine learning, and building real-world solutions that make an impact. <br/>
+      <br />
+      Whether it's analyzing complex datasets or creating intuitive interfaces, I’m always eager to learn and grow.
+    </p>
+  </div>
+</section>
+
+
         <section id="contact" className="section">
           {/* AOS trigger div required here to avoid rendering bug */}
           <div data-aos="fade-up"></div>
