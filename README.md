@@ -19,22 +19,22 @@ Welcome to my personal portfolio website! This site was built from scratch to sh
 Here are some screenshots of the live site:
 
 ### Hero Section  
-![Hero](./website_1.PNG)
+![Hero](./website_example_pictures//website_1.PNG)
 
 ### Technologies & Concepts  
-![Technologies](./website_2.png)
+![Technologies](./website_example_pictures//website_2.png)
 
 ### Tech Stack  
-![Tech Stack](./website_3.png)
+![Tech Stack](./website_example_pictures//website_3.png)
 
 ### Projects  
-![Projects](./website_4.PNG)
+![Projects](./website_example_pictures//website_4.PNG)
 
 ### Resume Viewer  
-![Resume](./website_5.png)
+![Resume](./website_example_pictures//website_5.png)
 
 ### About Me Section  
-![About](./website_6.png)
+![About](./website_example_pictures//website_6.png)
 
 ### How I Built This Website  
 ![How It Works](./website_example_pictures//website_7.png)
