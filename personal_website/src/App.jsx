@@ -70,13 +70,31 @@ function App() {
 
       {/* Sections container */}
       <main className="container">
-        <section id="skills" className="section" data-aos="fade-up">
-          <h2>Skills</h2>
-          <p>
-            Python, SQL, Java, Data Analysis, Deep Learning, Computer Vision,
-            Bash, Technical Writing, Excel, Tableau
-          </p>
+        <section id="skills" className="section">
+          <div data-aos="fade-up" data-aos-delay="100">
+            <h2>Technologies & Concepts</h2>
+            <ul className="tech-concepts-list">
+              <li>Data Analysis & Visualization</li>
+              <li>
+                Computer Vision & Deep Learning (CNNs, image preprocessing)
+              </li>
+              <li>Structured Cabling & Hardware Troubleshooting</li>
+              <li>RAID, Networking, Linux/Unix Systems</li>
+              <li>
+                Google Sheets / Microsoft Excel (Advanced Formulas & Functions)
+              </li>
+              <li>
+                Basic knowledge of VMWare, Virtual Machines, and system
+                architecture
+              </li>
+              <li>
+                Understanding of Agile practices and ticketing systems (e.g.,
+                JIRA)
+              </li>
+            </ul>
+          </div>
         </section>
+
         <section className="section" id="tech-stack">
           <h2>Tech Stack</h2>
           <div className="tech-icons">
@@ -190,6 +208,35 @@ function App() {
               interfaces, I’m always eager to learn and grow.
             </p>
           </div>
+        </section>
+
+        <section id="build-info" className="section">
+          <h2>How I Built This Website</h2>
+          <p>
+            This site was built from scratch using <strong>React.js</strong>,
+            styled with <strong>custom CSS</strong>, and improved with animation
+            libraries like <strong>AOS (Animate on Scroll)</strong>. <br></br>
+            It’s fully responsive, optimized for performance, and deployed using
+            modern web practices.
+          </p>
+          <p>
+            Main features:
+            <ul>
+              <li>React components and hooks</li>
+              <li>CSS animations, hover effects, and parallax backgrounds</li>
+              <li>Third-party icon libraries and GitHub embeds</li>
+              <li>Manual layout structuring using Flexbox and Grid</li>
+              <li>
+                Future plans to add hosting, secure HTTPS, and more
+                interactivity
+              </li>
+            </ul>
+          </p>
+          <p>
+            I built this as a learning project to sharpen my frontend
+            development skills and to have a place to showcase my work and
+            journey in tech.
+          </p>
         </section>
 
         <section id="contact" className="section">
